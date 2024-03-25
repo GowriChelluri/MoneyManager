@@ -1,0 +1,50 @@
+.amount-container {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+}
+.money-bg-container {
+  display: flex;
+  align-items: center;
+
+  margin-right: 30px;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 70px;
+  min-width: 350px;
+}
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.expenses {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: column;
+}
+.type-name {
+  font-size: 13px;
+  color: #7e858e;
+
+  margin-top: 20px;
+}
+.rupees {
+  font-size: 16px;
+  color: #1e293b;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
