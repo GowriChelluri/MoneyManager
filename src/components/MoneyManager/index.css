@@ -43,10 +43,42 @@
   color: black;
   font-size: 15px;
   display: flex;
+
+  margin-left: 30px;
 }
 .table-container {
   border: 1px solid #d7dfe9;
   border-radius: 5px;
-  width: 60%;
-  padding: 20px;
+}
+.label {
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.input {
+  height: 20px;
+  min-width: 150px;
+}
+.btn {
+  height: 30px;
+  width: 60px;
+  background-color: #0b69ff;
+  color: white;
+  border-width: 0px;
+  margin-top: 15px;
+  border-radius: 7px;
+  padding: 8px;
+}
+.table-heading {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.list-container {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
 }

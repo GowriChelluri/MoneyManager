@@ -1,1 +1,19 @@
-/* Write your CSS here */
+.table-values {
+  font-size: 15px;
+  color: #7e858e;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+li {
+  display: flex;
+}
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
